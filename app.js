@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 }
 
 // import routes
-app.use("/", (req, res) => {
+app.use("/Hello", (req, res) => {
   res.send("Hello world!");
 });
 
