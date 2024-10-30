@@ -15,8 +15,9 @@ router.delete('/admin/delete-state/:state_id',isAuthenticated, stateController.d
 // PUT - Update a state by ID => Admin
 router.patch('/admin/update-state/:state_id',isAuthenticated, stateController.updateState);
 
-// GET - Get all states => Admin
+// GET - Get all states under specific country => User
 router.get('/get-states/:country_id', stateController.getStates);
+
 
 
 module.exports = router;

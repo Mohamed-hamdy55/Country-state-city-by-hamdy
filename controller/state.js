@@ -104,7 +104,7 @@ exports.updateState = catchAsyncErrors(async (req, res,next) => {
   }
 });
 
-// Get all states => Admin
+// Get all states => User
 exports.getStates= catchAsyncErrors(async (req, res,next) => {
   try {
     const { country_id } = req.params;

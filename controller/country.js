@@ -140,7 +140,7 @@ exports.updateCountry = catchAsyncErrors(async (req, res,next) => {
   }
 });
 
-// Get all countries => Admin
+// Get all countries => User
 exports.getCountries= catchAsyncErrors(async (req, res,next) => {
   try {
     

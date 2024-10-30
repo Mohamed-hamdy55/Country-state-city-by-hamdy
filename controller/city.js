@@ -104,7 +104,7 @@ exports.updateCity = catchAsyncErrors(async (req, res,next) => {
   }
 });
 
-// Get all cities => Admin
+// Get all cities => User
 exports.getCities= catchAsyncErrors(async (req, res,next) => {
   try {
     const { state_id } = req.params;
